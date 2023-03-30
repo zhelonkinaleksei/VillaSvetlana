@@ -221,8 +221,8 @@ body{
    
    }
    .header__logo {
-      width: 10rem;
-      height: 2.6rem;
+      width: 7.5rem;
+      height: 1.9rem;
  
    }
    .header__info {
@@ -239,7 +239,7 @@ body{
    position: absolute;
    z-index: -23;
    width: 100%;
-   height: 10000vh;
+   height: 100%;
    background: rgba(27, 27, 27, 0.8);
    overflow:hidden ;
    opacity: 0;
@@ -584,6 +584,10 @@ main{
    font-size: 1.3rem;
    line-height: 122%;
    color: #919191;
+   transition: all 0.3s ease 0s;
+   &:hover{
+      color: #ffffff;
+   }
 }
 .right__lang-line {
    width: 0.1rem;
@@ -718,8 +722,8 @@ main{
  
    }
    .right__row-character {
-
-      width: 100%;
+      margin: 0 auto;
+      width: 70%;
    
    }
    .row__character-item {
@@ -816,12 +820,13 @@ main{
 
    .top__left-title {
       font-size: 2rem;
+      margin-bottom: 2rem;
 
    }
    .top__left-subtitle {
 
       font-size: 1.2rem;
-      margin-bottom: 2.3rem;
+      margin-bottom: 3.3rem;
    }
 
    .section__top-right {
@@ -830,6 +835,7 @@ main{
 
    .right-img {
       width: 100%;
+      padding: 1rem;
    }
    .top__right-lang {
       row-gap: 1rem;
@@ -844,7 +850,7 @@ main{
    }
    .top__right-row {
       margin-top: 1rem;
-      row-gap: 1rem;
+      row-gap: 3rem;
    }
    .right__row-button {
       font-size: 1.1rem;
@@ -2396,6 +2402,7 @@ main{
    color: #919191;
    span{
       border-bottom: 0.1rem dashed #919191;
+      font-size: 1.6rem;
    }
    
    transition: all 0.3s ease 0s;
@@ -2407,4 +2414,192 @@ main{
       
       
    }
+}
+@media(max-width:992px){
+
+   .footer__container {
+      max-width: 120rem;
+      padding:3.7rem 1.5rem;
+   }
+   .footer__left-column {
+      row-gap: 1.3rem;
+      max-width: 25.7rem;
+   }
+   .left__column-name {
+
+      font-size: 1.4rem;
+  
+   }
+   .left__column-adress {
+
+      font-size: 1.1rem;
+
+   }
+   .left__column-tel {
+
+      font-size: 1.1rem;
+  
+   }
+   .footer__central-column {
+      display: flex;
+      justify-content: space-between;
+      width: 27.6rem;
+   }
+   .central__column-column {
+
+      row-gap: 1.2rem;
+      a{
+
+         font-size: 1.4rem;
+  
+      }
+   }
+   .footer__right-column {
+      row-gap: 0.5rem;
+
+   }
+   .right__column-card {
+ 
+     
+         span{
+            font-size: 1.4rem;
+         }
+        
+      
+      
+    
+   }
+
+}
+@media(max-width:768px){
+
+   .footer__container {
+      max-width: 120rem;
+      padding:2.7rem 1.5rem;
+   }
+   .footer__left-column {
+      row-gap: 1rem;
+      max-width: 18.7rem;
+   }
+   .left__column-name {
+
+      font-size: 1.3rem;
+  
+   }
+   .left__column-adress {
+
+      font-size: 1.1rem;
+
+   }
+   .left__column-tel {
+
+      font-size: 1.1rem;
+  
+   }
+   .footer__central-column {
+      width: 17.6rem;
+   }
+   .central__column-column {
+
+      row-gap: 1.2rem;
+      a{
+
+         font-size: 1.3rem;
+  
+      }
+   }
+   .footer__right-column {
+      row-gap: 0.5rem;
+
+   }
+   .right__column-card {
+ 
+     
+         span{
+            font-size: 1.3rem;
+         }
+        
+      
+      
+    
+   }
+
+}
+@media(max-width:576px){
+
+   .footer__container {
+      max-width: 120rem;
+      padding:2.7rem 1.5rem;
+   }
+   .footer__left-column {
+      display: none;
+   }
+  
+   .footer__central-column {
+      width: 50%;
+   }
+   .central__column-column {
+
+      row-gap: 1.2rem;
+      a{
+
+         font-size: 1.3rem;
+  
+      }
+   }
+   .footer__right-column {
+      row-gap: 0.5rem;
+
+   }
+   .right__column-card {
+ 
+     
+         span{
+            font-size: 1.3rem;
+         }
+        
+      
+      
+    
+   }
+
+}
+@media(max-width:400px){
+
+   .footer__container {
+      max-width: 120rem;
+      padding:20rem 1.5rem;
+   }
+   .footer__left-column {
+      display: none;
+   }
+  
+   .footer__central-column {
+      width: 50%;
+   }
+   .central__column-column {
+
+      row-gap: 1rem;
+      a{
+
+         font-size: 1.1rem;
+  
+      }
+   }
+   .footer__right-column {
+      row-gap: 0.5rem;
+
+   }
+   .right__column-card {
+ 
+     
+         span{
+            font-size: 1.1rem;
+         }
+        
+      
+      
+    
+   }
+
 }
