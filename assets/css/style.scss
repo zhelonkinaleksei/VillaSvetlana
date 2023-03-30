@@ -236,12 +236,11 @@ body{
 
 
 .header__menu-back {
-   position: absolute;
+   position: fixed;
    z-index: -23;
    width: 100%;
    height: 100%;
    background: rgba(27, 27, 27, 0.8);
-   overflow:hidden ;
    opacity: 0;
    transition: all 0.4s ease 0s;
 
@@ -289,6 +288,7 @@ body{
          transition: all 0.3s ease 0s;
        
          a{
+            
             position: relative;
             &::after{
                content: "";
@@ -311,6 +311,9 @@ body{
          }
       }
    }
+}
+.header__nav-black{
+   color: #535353;
 }
 .header__menu-close{
    cursor: pointer;
