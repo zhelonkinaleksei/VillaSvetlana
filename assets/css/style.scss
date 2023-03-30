@@ -1282,6 +1282,7 @@ main{
    right: 1.5rem;
    display: flex;
    flex-direction: column;
+   max-height: 81rem;
 }
 .section__relax-slide-mobile{
    position: relative;
@@ -1291,6 +1292,7 @@ main{
     max-width: 67.4rem;
     img{
       width: 100%;
+      max-height: 81rem;
     }
 }
 .relax__slide-row {
@@ -1347,6 +1349,28 @@ main{
       width: 100%;
    }
 }
+.section__relax-button{
+   font-weight: 400;
+   font-size: 1.3rem;
+   line-height: 150%;
+   bottom: -17rem;
+   left: 1.5rem;
+   letter-spacing: 0.04em;
+   text-transform: uppercase;
+   color: #222222;
+   position: absolute;
+   padding: 1.3rem 2.35rem;
+   border-radius: 0.4rem;
+   background-color: #FFFFFF;
+   border: 0.1rem solid #F69333;
+   transition: all 0.3s ease 0s;
+   &:hover{
+      background-color: #F69333;
+      color: #fff;
+   }
+
+
+}
 
 @media(max-width:992px){
    .section__relax-container {
@@ -1371,8 +1395,19 @@ main{
       max-width: 51.4rem;
       top: 9rem;
    }
-
+   .section__relax-button{
+      font-size: 1.3rem;
+      bottom: -7.4rem;
+      left: 1.5rem;
+      padding: 1.3rem 2.35rem;
+    
+   
+   
+   }
 }
+
+
+
 @media(max-width:768px){
    .section__relax-container {
       padding: 7rem 1.5rem 4.4rem 1.5rem;
@@ -1491,6 +1526,15 @@ main{
    .slide__row-nav-right {
       width: 5.8rem;
       height: 1.25rem;
+   }
+   .section__relax-button{
+      font-size: 1.1rem;
+      bottom: -6.4rem;
+      left: 1.5rem;
+      padding: 0.9rem 2rem;
+    
+   
+   
    }
 
 
