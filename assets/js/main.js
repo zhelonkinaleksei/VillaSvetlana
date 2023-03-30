@@ -25,7 +25,7 @@ const headerMenuClose = document.querySelector(".header__menu-close");
 
 /*------------------------------------------------------------------------*/
 
-const popupButton = document.querySelector(".right__row-button");
+const popupButton = document.querySelector(".section__card-button");
 if (popupButton){
     const popup = document.querySelector('.popup');
     popupButton.addEventListener("click", function (){
